@@ -23,10 +23,9 @@ local part = workspace.GYM.GymDoor
 duration = 3
 interval = duration / 20
 
--- When the part touches the player, the for loop incrementally increases and decreases the Parent.Frame background transparency, fading the screen black in and out
-part.Touched:Connect(function(hit)
-	if hit.Parent == player.Character then
-		script.Parent.Frame.Visible = true
+
+function fade_screen()
+	script.Parent.Frame.Visible = true
 		for i = 1, 10 do
 			script.Parent.Frame.BackgroundTransparency = script.Parent.Frame.BackgroundTransparency - 0.1
 			task.wait(interval)
@@ -36,5 +35,11 @@ part.Touched:Connect(function(hit)
 			task.wait(interval)
 		end
 		script.Parent.Frame.Visible = false
+end
+
+-- When the part touches the player, the for loop incrementally increases and decreases the Parent.Frame background transparency, fading the screen black in and out
+part.Touched:Connect(function(hit)
+	if hit.Parent == player.Character then
+		fade_screen()
 	end
 end)
