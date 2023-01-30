@@ -1,10 +1,10 @@
 print("Working")
 
-local RS = game:GetService("RunService")
-local char = script.Parent
-local hrp = char.HumanoidRootPart
+local Text = script.Parent
+wait(1)
+local Player = game.Players.LocalPlayer
+local Char = Player.Character
 
-RS.Heartbeat:Connect(function()
-    local height = math.floor(hrp.Position.y / 3)
-    print(height)
+game:GetService("RunService").Stepped:Connect(function()
+	Text.Text = "Current Altitude: "..math.floor((Char.HumanoidRootPart.Position.Y-76.99)/3)
 end)
