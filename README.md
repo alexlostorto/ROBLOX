@@ -1,16 +1,20 @@
 <h1 align="center">ROBLOX</h1>
 
-This repository includes ROBLOX scripts which you can use to make scripting way easier!
+<p align="center">
+  <b>ROBLOX scripts to make scripting easier!
+
+[![Maintainability](https://img.shields.io/codeclimate/maintainability/alexlostorto/ROBLOX?style=for-the-badge&message=Code+Climate&labelColor=222222&logo=Code+Climate&logoColor=FFFFFF)](https://codeclimate.com/github/alexlostorto/ROBLOX/maintainability)
 
 ```lua
 -- List of functions
 function teleport(Player)
 function fade_screen()
+script playerHeight
 ```
 
-## Scripts
+## 📋 Scripts
 
-#### Teleport Script
+#### `Teleport Script`
 
 1. Add the Teleport_Script.lua inside the teleport part. This is the part that the player will touch to teleport.
 
@@ -23,7 +27,7 @@ function fade_screen()
 teleportTo = game.Workspace["GYM INDOOR"].Enter
 ```
 
-#### Fade Screen Script
+#### `Fade Screen Script`
 
 1. Create a screen GUI under 'StarterGUI', this will be the screen fade GUI.
 
@@ -47,7 +51,7 @@ local part = workspace.GYM.GymDoor
 duration = 3
 ```
 
-#### Player Height Script
+#### `Player Height Script`
 
 1. Add the Player_Height.lua inside the StarterGUI height GUI.
 <p align="left"><img height="40%" src="https://github.com/alexlostorto/ROBLOX/raw/main/git_images/Roblox Player Height Script.PNG" alt="image coming soon"/></p>
@@ -66,7 +70,7 @@ local offsetY = -76.99
 math.floor((Char.HumanoidRootPart.Position.Y + offsetY) / 3)
 ```
 
-## Credits
+## 📜 Credits
 
 Everything is coded by Alex lo Storto
 
