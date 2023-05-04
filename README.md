@@ -10,6 +10,7 @@
 function teleport(Player)
 function fade_screen()
 script playerHeight
+program closeRoblox
 ```
 
 ## 📋 Scripts
