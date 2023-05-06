@@ -1,7 +1,8 @@
 <h1 align="center">ROBLOX</h1>
 
 <p align="center">
-  <b>ROBLOX scripts to make scripting easier!
+  <b>ROBLOX scripts to make scripting easier!</b>
+</p>
 
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/alexlostorto/ROBLOX?style=for-the-badge&message=Code+Climate&labelColor=222222&logo=Code+Climate&logoColor=FFFFFF)](https://codeclimate.com/github/alexlostorto/ROBLOX/maintainability)
 
