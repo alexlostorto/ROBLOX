@@ -14,6 +14,19 @@ script playerHeight
 program closeRoblox
 ```
 
+## 📔 Table of Contents
+
+<details>
+  <summary>Click to expand</summary>
+  
+- [Scripts](#-scripts)
+  - [Teleport](#teleport-script)
+  - [Fade Screen](#fade-screen-script)
+  - [Player Height](#player-height-script)
+- [Credits](#-credits)
+</details>
+
+
 ## 📋 Scripts
 
 #### `Teleport Script`
